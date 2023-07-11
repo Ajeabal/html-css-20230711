@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            display: block;
+        }
+        span{
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <span id="github">깃허브로 이동</span>
+    <a href="https://www.naver.com/" target="_blank">네이버로 이동</a>
+    <a href="https://www.google.com/" target="_blank">구글로 이동</a>
+    <a href="../1. 요소성질/1. 블록요소.html">블록요소.html 이동</a>
+    <a href="tel:+820150945376">전화</a>
+    <a href="mailto:swq3064@naver.com">email</a>
+    <div id="top" >
+        <h1>hi</h1>
+        <p style="height: 1500px;">hello</p>
+    </div>
+    <a href="#top">?</a>
+    <script>
+        github.onclick = e => {
+            window.location.href='https://www.github.com'
+        };
+    </script>
+
+</body>
+</html>
