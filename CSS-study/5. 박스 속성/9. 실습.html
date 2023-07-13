@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <title>Document</title>
+    <style>
+        section {
+            width: 500px;
+            height: 158px;
+            margin: 10px;
+            border: 3px double blue;
+        }
+        section h1 {
+            background: lightblue;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 2px solid darkblue;
+        }
+        section .content {
+            padding: 10px;            
+            margin: 0px 1px 0px 1px;
+        }
+        section .content h2{
+            font-weight: bold;
+        }
+        section .content p{
+            margin-top: 5px;
+            font-size: 9pt;
+        }
+        section .content:last-child {
+            border-top: 1.5px dotted lightblue;
+        }
+        .box {
+            margin: 10px;
+            box-sizing: border-box;
+            padding: 10px;
+            width: 31%;
+            height: 5%;
+            background: rgb(52, 196, 196);
+        }
+        .box p {
+            display: block;
+            margin: 13px;
+            color: white;
+            padding: 7px;
+            font-size: 12pt;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgb(40, 16, 16);
+        }
+        .box p:hover {
+            background: skyblue;
+            color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <h1>속 담 풀 이</h1>
+        <!-- .content*2>h2+p -->
+        <div class="content">
+            <h2>말 한마디에 천냥 빚 갚는다.</h2>
+            <p>
+                생각해보지 않고 나오는 대로 말하다가
+                실수하면 상대의 마음에 아픔을 남기게 된다.
+            </p>
+        </div>
+        <div class="content" id="1">
+            <h2>웃는 얼굴에 침 못 뱉는다.</h2>
+            <p>
+                호의적인 의사소통 방법은 자기 말만 하는 것보다
+                좋은 결과로 이어진다.
+            </p>
+        </div>
+    </section>
+    <div class="box">
+        <p>[주문] 긴급재난지원금을 쿠팡에서 사용할 수 있나요?</p>
+        <p>다슬기를 키우고 싶은데 어떤 환경이 필요한가요?</p>
+        <p>달팽이가 집을 나갔습니다. 어떻게 하죠?</p>
+    </div>
+</body>
+</html>
