@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* 패딩, 보더로 박스 커지는거 방지 */
+            box-sizing: border-box;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            background: orange;
+            margin-left: 100px;
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+        .box {
+            width: 250px;
+            height: 250px;
+            background: tomato;
+            font-size: 2em;
+            color: white;
+            padding: 50px;
+        }
+        .card {
+            width: 250px;
+            height: 350px;
+            border: 2px solid gray;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 5px 5px gray;
+        }
+        .card .album {
+            height: 250px;
+        }
+        .card .album img{
+            width: 100%;
+        }
+        .card .content {
+            border-radius: 15px;
+            padding: 20px 5px;
+            text-align: center;
+            background: rgba(180, 180, 180, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="album">
+            <img src="darkknight.png" alt="">
+        </div>
+        <p class="content">FF14 DarkKnight</p>
+    </div>
+    <div class="container">
+        <div class="box">안녕 안녕</div>
+    </div>
+</body>
+</html>
