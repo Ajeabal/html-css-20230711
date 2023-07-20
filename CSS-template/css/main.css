@@ -2,6 +2,7 @@
 @import url('../../common.css');
 
 body {
+    background: #1b1b1b;
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
@@ -294,4 +295,24 @@ section.contents .partner ul li {
     transition: 0.3s;
 }
 section.contents .partner ul li:hover {
-    opacity: 1;}
+    opacity: 1;
+}
+
+/* > contact style */
+section.contents .contact {
+    width: 90%;
+    padding: 220px 0;
+    background: url(../img/contact.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+section.contents .contact .inner {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.4;
+}
+section.contents .contact .inner .tel {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 50px 0;
+}
