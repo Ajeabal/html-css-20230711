@@ -1,6 +1,7 @@
 /* choose plan style */
 @import url('common.css');
 @import url('include.css');
+@import url('https://cdn.linearicons.com/free/1.0.0/icon-font.min.css');
 
 
 #product-overview {
@@ -150,4 +151,37 @@
     }
 }
 
-/* key features style */
+/* 모바일 414 해상도 */
+@media screen and (max-width: 414px) {
+    .main-header .main-nav {
+        display: none;
+    }
+    .main-header h1 {
+        margin: 0;
+    }
+    .main-header .main-header__brand {
+        font-size: 20px;
+    }
+    .main-header .mobile-menu-btn {
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    #product-overview {
+        height: calc(70vh - 70px);
+    }
+    #product-overview h2 {
+        font-size: 26px;
+        animation: none;
+    }
+    #plans .plan-wrapper .plan {
+        width: 80%;
+    }
+    #plans .plan-wrapper .plan h1,
+    #plans .plan-wrapper .plan h2,
+    #plans .plan-wrapper .plan h3,
+    #plans .plan-wrapper .plan h4,
+    #plans .plan-wrapper .plan h5 {
+        font-size: 16px;
+    }
+}
