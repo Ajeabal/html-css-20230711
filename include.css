@@ -15,6 +15,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    align-items: center;
 }
 
 .main-header h1 {
@@ -72,6 +73,11 @@ body {
     color: #fff;;
    
 }
+/* 모바일 전용버튼 */
+.main-header .mobile-menu-btn {
+    display: none;
+}
+
 .main-footer .main-footer__links {
     display: flex;
     width: 13%;
